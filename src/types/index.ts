@@ -46,3 +46,12 @@ export type INavLink = {
     username: string;
     password: string;
   };
+
+  export type ISaveUserToDB = {
+    accountId: string;
+    email: string;
+    name: string;
+    imageUrl: URL;
+    username?: string;
+  }
+
