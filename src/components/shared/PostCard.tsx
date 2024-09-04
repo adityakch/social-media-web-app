@@ -1,6 +1,6 @@
 import { useUserContext } from '@/context/AuthContext';
 import { multiFormatDateString } from '@/lib/utils';
-import { Models, Account } from 'appwrite';
+import { Models } from 'appwrite';
 import { Link } from "react-router-dom";
 import PostStats from './PostStats';
 
@@ -42,7 +42,7 @@ const PostCard = ({post}: PostCardProps) => {
                 </div>
             </div>
             <Link to={`/update-post/${post.$id}`}
-                className={`${user.id !== post.creator.id && "hidden"}`}
+                className={`${user.id !== post.creator.$id && "hidden"}`}
             >
                 <img 
                     src='/assets/icons/edit.svg'
@@ -58,7 +58,7 @@ const PostCard = ({post}: PostCardProps) => {
                 <ul className='flex gap-1 mt-2'>
                     {post.tags.map((tag: string) => (
                         <li key={tag} className='text-light-3'>
-                            # {tag}
+                            #{tag}
                         </li>
                     ))}
                 </ul>
