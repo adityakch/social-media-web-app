@@ -75,7 +75,7 @@ const PostStats = ({post, userId}: PostStatsProps) => {
             <p className="small-medium lg:base-medium">{likes.length}</p>
         </div>
 
-        <div className="flex gap-2 mr-2">
+        <div className="flex gap-2 ml-3 mr-2">
             {isSavingPost || isDeletetingSaved? <Loader /> :<img 
                 src={isSaved? 
                     "/assets/icons/saved.svg":  "/assets/icons/save.svg"
