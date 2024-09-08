@@ -1,36 +1,36 @@
-# Social Media Web App
+# 📸 Social Media Web App
 
-## Overview
+## 🌟 Overview
 
 This project is a social media web application inspired by Instagram. It allows users to share media, interact with posts, and explore content from other users. The application uses Appwrite for backend management and implements core features similar to Instagram.
 
-## Features
+## ✨ Features
 
-- **User Authentication**
+- 🔐 **User Authentication**
   - Login and registration system
-- **Media Posting**
+- 🖼️ **Media Posting**
   - Users can upload and share media content
-- **Interaction**
+- 👍 **Interaction**
   - Like posts
   - Save posts for later viewing
-- **Explore Page**
+- 🔍 **Explore Page**
   - Search functionality based on keywords
-- **Home Feed**
+- 🏠 **Home Feed**
   - Display recent posts from users
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 ### Frontend
-- React
-- Vite.js
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
+- ⚛️ React
+- ⚡ Vite.js
+- 🏷️ TypeScript
+- 🎨 Tailwind CSS
+- 🧰 shadcn/ui
 
 ### Backend
-- Appwrite
+- 🚀 Appwrite
 
-## Setup and Installation
+## 🚀 Setup and Installation
 
 1. Clone the repository.
 
@@ -55,3 +55,4 @@ This project is a social media web application inspired by Instagram. It allows 
    ```
    npm run dev
    ```
+
